@@ -1,0 +1,7 @@
+name,varied_hyperparameter,best_fitness,generations_run,stopped_early
+song1a_baseline,baseline configuration (reference point),0.8958,201,False
+song1b_same_config_seed,"seed only (10 -> 11), everything else identical to song1a",0.9013,201,False
+song2_high_mutation,"mutation_rate: 0.06 -> 0.20 (more exploration, less convergent riff)",0.7548,82,True
+song3_major_key,key_mode/progression/lead_scale: A natural-minor pentatonic -> E major pop-rock,0.8611,138,True
+song4_dense_16th_grid,"steps_per_bar: 8 -> 16 (sixteenth-note grid, busier/thrashier riff)",0.6799,143,True
+song5_slow_blues_rock,tempo_bpm: 132 -> 96 and progression -> i-iv-v (slower blues-rock feel),0.9405,201,False
