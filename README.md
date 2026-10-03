@@ -109,17 +109,3 @@ O resumo referencia as figuras `figures/fitness_song1a.png` e
 `figures/fitness_comparison.png` e a tabela de resultados, já preenchidas
 com os números do conjunto de demonstração gerado por
 `scripts/make_demo_set.py`.
-
-## Uso de IA
-
-Ferramentas de IA (Claude Code, Anthropic) foram usadas como apoio na
-implementação deste projeto (estruturação dos módulos em `src/ga_music/`,
-geração de código auxiliar como o softsynth em `synth.py` e os scripts de
-linha de comando) e na redação inicial do resumo em `paper/summary.tex`,
-sob orientação e revisão do autor. A escolha do método (algoritmos
-genéticos), do estilo (rock 80/90), a definição do genótipo, dos termos de
-fitness e dos hiperparâmetros foram decisões do autor, feitas em conversa
-com a ferramenta.
-
-**Link da conversa:** _[adicionar aqui o link/export da conversa com o
-Claude Code antes de submeter, conforme exigido no enunciado]_.
