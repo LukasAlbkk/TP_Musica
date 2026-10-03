@@ -1,6 +1,7 @@
 # Riffs de Rock 80/90 com Algoritmos Genéticos
 
 TP1 — Composição Musical Algorítmica (DCC831, UFMG, 2026/2).
+Lucas Albuquerque Santos Costa - 2023028005
 
 Um algoritmo genético (AG) evolui riffs de guitarra no estilo **rock das
 décadas de 1980-90**. O AG evolui apenas a melodia/riff principal; o
@@ -93,19 +94,3 @@ paper/
   summary.tex        resumo no formato ISMIR (template oficial 2026)
 outputs/demo/         MIDI, WAV, gráficos e logs das músicas de demonstração (versionados)
 ```
-
-## Resumo ISMIR
-
-O resumo está em `paper/summary.tex`, usando o template oficial do ISMIR
-(baixado de [github.com/ismir/paper_templates](https://github.com/ismir/paper_templates),
-versão 2026). Para gerar o PDF, como não há LaTeX instalado localmente:
-
-1. Acesse [overleaf.com](https://www.overleaf.com) (gratuito).
-2. "New Project" → "Upload Project" e envie a pasta `paper/` (compacte-a
-   em `.zip` antes).
-3. Compile — o Overleaf resolve as dependências automaticamente.
-
-O resumo referencia as figuras `figures/fitness_song1a.png` e
-`figures/fitness_comparison.png` e a tabela de resultados, já preenchidas
-com os números do conjunto de demonstração gerado por
-`scripts/make_demo_set.py`.
